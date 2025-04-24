@@ -20,7 +20,6 @@ Material:
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
-  - _TPS_ANIMATEDTOGGLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -29,7 +28,7 @@ Material:
     AllLockedGUIDS: e476407972e705e4b88fe9c231807107
     OriginalKeywords: AUTO_EXPOSURE BSSBLOOMFOGTYPE_HEIGHT VIGNETTE_MASKED _LIGHTINGMODE_REALISTIC
       _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
-    OriginalShader: .poiyomi/Poiyomi Pro
+    OriginalShader: .poiyomi/Old Versions/9.1/Poiyomi Pro
     OriginalShaderGUID: 91f453b66d212d242b4824aa72c0b70b
     RenderType: Transparent
     _AlphaModAnimated: 1
@@ -159,6 +158,7 @@ Material:
     - _AlphaFresnelWidth: 0.5
     - _AlphaGlobalMask: 0
     - _AlphaGlobalMaskBlendType: 2
+    - _AlphaMaskBlendStrength: 1
     - _AlphaMaskInvert: 0
     - _AlphaMaskMode: 2
     - _AlphaMaskScale: 1
@@ -562,6 +562,10 @@ Material:
     - _DecalHueShiftSpeed2: 0
     - _DecalHueShiftSpeed3: 0
     - _DecalMaskUV: 0
+    - _DecalMirroredUVMode: 0
+    - _DecalMirroredUVMode1: 0
+    - _DecalMirroredUVMode2: 0
+    - _DecalMirroredUVMode3: 0
     - _DecalOverrideAlpha: 0
     - _DecalOverrideAlpha1: 0
     - _DecalOverrideAlpha2: 0
@@ -586,6 +590,10 @@ Material:
     - _DecalRotationSpeed1: 0
     - _DecalRotationSpeed2: 0
     - _DecalRotationSpeed3: 0
+    - _DecalSymmetryMode: 0
+    - _DecalSymmetryMode1: 0
+    - _DecalSymmetryMode2: 0
+    - _DecalSymmetryMode3: 0
     - _DecalTPSDepthMaskEnabled: 0
     - _DecalTexture1UV: 0
     - _DecalTexture2UV: 0
@@ -1796,6 +1804,7 @@ Material:
     - _RedTextureStochastic: 0
     - _RedTextureUV: 0
     - _RefSpecFresnel: 1
+    - _RefSpecFresnelAlpha: 1
     - _RefSpecFresnelBack: 1
     - _RenderingEarlyZEnabled: 0
     - _RenderingReduceClipDistance: 0
@@ -2269,6 +2278,7 @@ Material:
     - _VoronoiType: 1
     - _Wriggle: 0
     - _WriggleSpeed: 0.28
+    - _ZClip: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _glitterFrequencyLinearEmissive: 20
@@ -2443,7 +2453,7 @@ Material:
     - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
-    - m_start_Alpha: 1
+    - m_start_Alpha: 0
     - m_start_Aniso: 0
     - m_start_BeatsaberBloomFog: 0
     - m_start_BeatsaberOptions: 0
@@ -2584,7 +2594,7 @@ Material:
     - m_start_uvPanosphere: 0
     - m_start_uvPolar: 0
     - m_start_vertexGlitching: 0
-    - m_start_vertexManipulation: 0
+    - m_start_vertexManipulation: 1
     - m_start_videoEffects: 0
     - m_start_voronoi: 0
     - m_start_voronoiRandom: 0
