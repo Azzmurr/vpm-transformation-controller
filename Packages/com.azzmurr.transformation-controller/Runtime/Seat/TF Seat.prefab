@@ -1213,7 +1213,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000044703487, y: 0.00000005960465, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3836758196888043970}
@@ -1397,7 +1397,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 8d90258b00e4d9940a0110b9257b640e|Assets/Transformation Controller/Seat/Anims/chair-toggle.anim
+          id: 8d90258b00e4d9940a0110b9257b640e|Packages/com.azzmurr.transformation-controller/Runtime/Seat/Anims/chair-toggle.anim
           objRef: {fileID: 7400000, guid: 8d90258b00e4d9940a0110b9257b640e, type: 2}
 --- !u!114 &8278195462174085539
 MonoBehaviour:
