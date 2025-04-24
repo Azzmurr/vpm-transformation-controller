@@ -1,0 +1,17 @@
+{
+  "name": "com.azzmurr.transformation-controller",
+  "displayName": "Azzmurr Transformation Controller",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {},
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.avatars": "3.8.0"
+  },
+  "author": {
+    "name": "Azzmurr",
+    "email": "trofum@gmail.com"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {}
+}
